@@ -1,55 +1,26 @@
 # Homepage (docs/index.md)
 
----
-layout: home
+This Node.js test automation framework provides a YAML-based approach to defining, organizing, and executing tests using Playwright MCP Server. The framework supports modular test design through reusable step libraries, comprehensive test case definitions, and organized test suites.
+### Features
 
-hero:
-  name: "Test Framework"
-  text: "YAML-based Test Automation"
-  tagline: "Simple, powerful, and maintainable test automation with Playwright MCP integration"
-  image:
-    src: /hero-image.svg
-    alt: Test Framework Logo
-  actions:
-    - theme: brand
-      text: Get Started
-      link: /getting-started
-    - theme: alt
-      text: View Examples
-      link: /examples/basic-setup
-    - theme: alt
-      text: GitHub
-      link: https://github.com/yourusername/test-framework
-
-features:
-  - icon: 🎯
-    title: YAML-based Definitions
-    details: Easy to write and maintain test definitions using simple, human-readable YAML syntax. No complex code required.
-  - icon: 🚀
-    title: Playwright MCP Integration
-    details: Leverages AI-powered test execution with Playwright MCP Server for intelligent and robust test automation.
-  - icon: 📊
-    title: Rich HTML Reports
-    details: Comprehensive test results with key statistics, visual feedback, and detailed execution traces.
-  - icon: 🔧
-    title: Environment Support
-    details: Multiple environment configurations for development, staging, and production testing workflows.
-  - icon: 📸
-    title: Automatic Artifacts
-    details: Screenshot collection and trace files automatically captured for debugging and documentation.
-  - icon: 🏗️
-    title: CI/CD Ready
-    details: GitHub Actions workflow included for seamless continuous integration and deployment.
-  - icon: 🔄
-    title: Reusable Step Libraries
-    details: Modular design with reusable step libraries that can be shared across multiple test cases.
-  - icon: 🐙
-    title: GitHub Integration
-    details: Automated PR comments, GitHub Pages deployment, and seamless integration with your development workflow.
-  - icon: 🔍
-    title: Advanced Validation
-    details: Built-in YAML validation ensures your test definitions are correct before execution.
----
+  - 🎯 **YAML-based Definitions**
+    Easy to write and maintain test definitions using simple, human-readable YAML syntax. No complex code required.
+  - 🚀 **Playwright MCP Integration**
+    Leverages AI-powered test execution with Playwright MCP Server for intelligent and robust test automation.
+  - 📊 **Rich HTML Reports**
+    Comprehensive test results with key statistics, visual feedback, and detailed execution traces.
+  - 🔧 **Environment Support**
+    Multiple environment configurations for development, staging, and production testing workflows.
+  - 📸 **Automatic Artifacts**
+    Screenshot collection and trace files automatically captured for debugging and documentation.
+  - 🏗️ **CI/CD Ready**
+    GitHub Actions workflow included for seamless continuous integration and deployment.
+  - 🔄 **Reusable Step Libraries**
+    Modular design with reusable step libraries that can be shared across multiple test cases.
+  - 🐙 **GitHub Integration**
+    Automated PR comments, GitHub Pages deployment, and seamless integration with your development workflow.
+  - 🔍 **Advanced Validation**
+    Built-in YAML validation ensures your test definitions are correct before execution.
 
 ## Quick Example
 
