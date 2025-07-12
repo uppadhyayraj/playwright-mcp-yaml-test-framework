@@ -416,5 +416,5 @@ Start with simple step libraries and gradually build more complex ones as you id
 
 **Related Topics:**
 - [Test Cases](/test-cases) - Learn how to use step libraries in test cases
-<!--- [Environment Variables](/environment) - Understand variable interpolation
-- [Best Practices](/reference/best-practices) - Follow recommended patterns-->
+- [Environment Variables](/environment) - Understand variable interpolation
+- [Best Practices](/reference/best-practices) - Follow recommended patterns

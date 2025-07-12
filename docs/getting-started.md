@@ -266,8 +266,8 @@ The framework will generate:
 
 If you run into any issues:
 
-<!--1. Check the [**Troubleshooting Guide**](/reference/troubleshooting)
-2. Review the [**FAQ**](/reference/faq)-->
+1. Check the [**Troubleshooting Guide**](/reference/troubleshooting)
+2. Review the [**FAQ**](/reference/faq)
 3. [**Open an issue**](https://github.com/uppadhyayraj/playwright-mcp-yaml-test-framework/issues) on GitHub
 
 ## Video Tutorial
@@ -278,4 +278,4 @@ We're working on video tutorials to help you get started even faster. Stay tuned
 
 ---
 
-Ready to build more comprehensive tests? <!--Let's dive into the [core concepts](/architecture) of the framework.-->
+Ready to build more comprehensive tests? Let's dive into the [core concepts](/architecture) of the framework.

@@ -1,6 +1,6 @@
 // docs/.vitepress/config.js
 export default {
-  title: 'AI Ppowered - No Code Test Automation Framework Documentation',
+  title: 'AI Powered - No Code Test Automation Framework Documentation',
   description: 'YAML-based test automation framework with Playwright MCP integration',
   base: '/playwright-mcp-yaml-test-framework/', // Replace with your actual repo name
   
