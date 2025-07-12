@@ -1,0 +1,312 @@
+/* docs/.vitepress/theme/custom.css */
+
+/**
+ * Colors
+ * -------------------------------------------------------------------------- */
+
+:root {
+  /* Brand colors */
+  --vp-c-brand: #646cff;
+  --vp-c-brand-light: #747bff;
+  --vp-c-brand-lighter: #9499ff;
+  --vp-c-brand-lightest: #bcc0ff;
+  --vp-c-brand-dark: #535bf2;
+  --vp-c-brand-darker: #454ce1;
+  --vp-c-brand-dimm: rgba(100, 108, 255, 0.08);
+  
+  /* Success colors */
+  --vp-c-success: #10b981;
+  --vp-c-success-light: #34d399;
+  --vp-c-success-lighter: #6ee7b7;
+  --vp-c-success-dark: #059669;
+  --vp-c-success-darker: #047857;
+  
+  /* Warning colors */
+  --vp-c-warning: #f59e0b;
+  --vp-c-warning-light: #fbbf24;
+  --vp-c-warning-lighter: #fcd34d;
+  --vp-c-warning-dark: #d97706;
+  --vp-c-warning-darker: #b45309;
+  
+  /* Danger colors */
+  --vp-c-danger: #ef4444;
+  --vp-c-danger-light: #f87171;
+  --vp-c-danger-lighter: #fca5a5;
+  --vp-c-danger-dark: #dc2626;
+  --vp-c-danger-darker: #b91c1c;
+}
+
+/* Dark mode colors */
+html.dark {
+  --vp-c-brand: #a855f7;
+  --vp-c-brand-light: #b967f0;
+  --vp-c-brand-lighter: #c77dff;
+  --vp-c-brand-lightest: #d896ff;
+  --vp-c-brand-dark: #9333ea;
+  --vp-c-brand-darker: #7c3aed;
+}
+
+/**
+ * Component: Home
+ * -------------------------------------------------------------------------- */
+
+.VPHome {
+  margin-bottom: 96px;
+}
+
+.VPHome .name {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.dark .VPHome .name {
+  background: linear-gradient(135deg, #a855f7 0%, #3b82f6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.VPHome .text {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.dark .VPHome .text {
+  background: linear-gradient(135deg, #a855f7 0%, #3b82f6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+/**
+ * Component: Custom Blocks
+ * -------------------------------------------------------------------------- */
+
+.custom-block {
+  margin: 16px 0;
+  border-radius: 8px;
+  padding: 16px;
+  border-left: 4px solid;
+}
+
+.custom-block.info {
+  border-color: var(--vp-c-brand);
+  background-color: var(--vp-c-brand-dimm);
+}
+
+.custom-block.tip {
+  border-color: var(--vp-c-success);
+  background-color: rgba(16, 185, 129, 0.1);
+}
+
+.custom-block.warning {
+  border-color: var(--vp-c-warning);
+  background-color: rgba(245, 158, 11, 0.1);
+}
+
+.custom-block.danger {
+  border-color: var(--vp-c-danger);
+  background-color: rgba(239, 68, 68, 0.1);
+}
+
+.custom-block-title {
+  font-weight: 600;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/**
+ * Component: Features
+ * -------------------------------------------------------------------------- */
+
+.VPFeatures {
+  padding: 24px 0;
+}
+
+.VPFeature {
+  background: var(--vp-c-bg-alt);
+  border-radius: 12px;
+  padding: 24px;
+  border: 1px solid var(--vp-c-divider);
+  transition: all 0.3s ease;
+}
+
+.VPFeature:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  border-color: var(--vp-c-brand);
+}
+
+.dark .VPFeature:hover {
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.VPFeature .icon {
+  font-size: 24px;
+  margin-bottom: 16px;
+  display: block;
+}
+
+.VPFeature .title {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+/**
+ * Component: Code blocks
+ * -------------------------------------------------------------------------- */
+
+.vp-code-group {
+  margin: 16px 0;
+}
+
+.vp-code-group .tabs {
+  border-radius: 8px 8px 0 0;
+  background: var(--vp-code-tab-bg);
+  border-bottom: 1px solid var(--vp-c-divider);
+}
+
+.vp-code-group .tabs input:checked + label {
+  background: var(--vp-c-brand);
+  color: var(--vp-c-white);
+}
+
+/**
+ * Component: Badges
+ * -------------------------------------------------------------------------- */
+
+.badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 500;
+  margin: 0 4px;
+}
+
+.badge.success {
+  background-color: var(--vp-c-success);
+  color: var(--vp-c-white);
+}
+
+.badge.warning {
+  background-color: var(--vp-c-warning);
+  color: var(--vp-c-white);
+}
+
+.badge.danger {
+  background-color: var(--vp-c-danger);
+  color: var(--vp-c-white);
+}
+
+.badge.info {
+  background-color: var(--vp-c-brand);
+  color: var(--vp-c-white);
+}
+
+/**
+ * Component: Table of Contents
+ * -------------------------------------------------------------------------- */
+
+.VPDocAsideOutline .root {
+  position: sticky;
+  top: 80px;
+}
+
+.VPDocAsideOutline .outline-marker {
+  background-color: var(--vp-c-brand);
+}
+
+/**
+ * Component: Navigation
+ * -------------------------------------------------------------------------- */
+
+.VPNavBar {
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.dark .VPNavBar {
+  background: rgba(26, 32, 46, 0.9);
+}
+
+/**
+ * Component: Sidebar
+ * -------------------------------------------------------------------------- */
+
+.VPSidebar {
+  background: var(--vp-c-bg-alt);
+  border-right: 1px solid var(--vp-c-divider);
+}
+
+.VPSidebarItem.level-0 .item .text {
+  font-weight: 600;
+}
+
+.VPSidebarItem.is-active > .item .text {
+  color: var(--vp-c-brand);
+}
+
+/**
+ * Animations
+ * -------------------------------------------------------------------------- */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.6s ease-out;
+}
+
+/**
+ * Responsive Design
+ * -------------------------------------------------------------------------- */
+
+@media (max-width: 768px) {
+  .VPHome .name {
+    font-size: 32px;
+  }
+  
+  .VPHome .text {
+    font-size: 20px;
+  }
+  
+  .VPFeature {
+    padding: 16px;
+  }
+}
+
+/**
+ * Print Styles
+ * -------------------------------------------------------------------------- */
+
+@media print {
+  .VPNavBar,
+  .VPSidebar,
+  .VPDocAsideOutline {
+    display: none !important;
+  }
+  
+  .VPContent {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+}

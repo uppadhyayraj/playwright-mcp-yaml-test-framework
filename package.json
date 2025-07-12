@@ -1,21 +1,33 @@
 {
   "name": "playwright-mcp-yaml-test-framework",
-  "version": "1.0.0",
-  "description": "",
+"version": "1.0.0",
+  "description": "Documentation for YAML-based test automation framework",
   "main": "index.js",
-  "directories": {
-    "doc": "docs"
-  },
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
+    "docs:preview": "vitepress preview docs",
+    "docs:serve": "vitepress serve docs"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
+  "keywords": [
+    "testing",
+    "automation",
+    "playwright",
+    "yaml",
+    "mcp",
+    "documentation"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
   "devDependencies": {
-    "vitepress": "^1.6.3"
-  }
+    "vitepress": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uppadhyayraj/playwright-mcp-yaml-test-framework.git"
+  },
+  "bugs": {
+    "url": "https://github.com/uppadhyayraj/playwright-mcp-yaml-test-framework/issues"
+  },
+  "homepage": "https://uppadhyayraj.github.io/playwright-mcp-yaml-test-framework/"
 }
