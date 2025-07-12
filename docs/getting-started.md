@@ -278,4 +278,4 @@ We're working on video tutorials to help you get started even faster. Stay tuned
 
 ---
 
-Ready to build more comprehensive tests? Let's dive into the [core concepts](/architecture) of the framework.
+Ready to build more comprehensive tests? <!--Let's dive into the [core concepts](/architecture) of the framework.-->
