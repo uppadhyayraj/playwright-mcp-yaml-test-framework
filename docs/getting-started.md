@@ -266,9 +266,9 @@ The framework will generate:
 
 If you run into any issues:
 
-1. Check the [**Troubleshooting Guide**](/reference/troubleshooting)
-2. Review the [**FAQ**](/reference/faq)
-3. [**Open an issue**](https://github.com/yourusername/test-framework/issues) on GitHub
+<!--1. Check the [**Troubleshooting Guide**](/reference/troubleshooting)
+2. Review the [**FAQ**](/reference/faq)-->
+3. [**Open an issue**](https://github.com/uppadhyayraj/playwright-mcp-yaml-test-framework/issues) on GitHub
 
 ## Video Tutorial
 
