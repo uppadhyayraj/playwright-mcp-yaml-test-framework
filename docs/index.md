@@ -1,7 +1,7 @@
-# Homepage (docs/index.md)
+# Playwright MCP YAML (Democratize Quality)
 
 This Node.js test automation framework provides a YAML-based approach to defining, organizing, and executing tests using Playwright MCP Server. The framework supports modular test design through reusable step libraries, comprehensive test case definitions, and organized test suites.
-### Features
+## Features
 
   - 🎯 **YAML-based Definitions**
     Easy to write and maintain test definitions using simple, human-readable YAML syntax. No complex code required.

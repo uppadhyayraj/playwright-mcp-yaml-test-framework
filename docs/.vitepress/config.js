@@ -1,6 +1,6 @@
 // docs/.vitepress/config.js
 export default {
-  title: 'AI Powered - No Code Test Automation Framework Documentation',
+  title: 'Democratize Quality',
   description: 'YAML-based test automation framework with Playwright MCP integration',
   base: '/playwright-mcp-yaml-test-framework/', // Replace with your actual repo name
   
@@ -78,7 +78,7 @@ export default {
     },
     
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/yourusername/test-framework-docs' }
+      { icon: 'github', link: 'https://github.com/uppadhyayraj/playwright-mcp-yaml-test-framework' }
     ],
     
     footer: {
@@ -87,7 +87,7 @@ export default {
     },
     
     editLink: {
-      pattern: 'https://github.com/yourusername/test-framework-docs/edit/main/docs/:path',
+      pattern: 'https://github.com/uppadhyayraj/playwright-mcp-yaml-test-framework/edit/main/docs/:path',
       text: 'Edit this page on GitHub'
     },
     
@@ -117,6 +117,6 @@ export default {
   },
   
   sitemap: {
-    hostname: 'https://yourusername.github.io/test-framework-docs'
+    hostname: 'https://uppadhyayraj.github.io/playwright-mcp-yaml-test-framework'
   }
 }
