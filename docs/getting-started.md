@@ -90,20 +90,38 @@ Create `.gemini/settings.json`:
 ```json
 {
   "theme": "GitHub",
-  "selectedAuthType": "oauth-personal",
+  "selectedAuthType": "oauth-personal", //use other based on how you autheticated gemini
   "mcpServers": {
-    "playwright": {
+    "democratize-api-mcp": {
+      "command": "npx",
+      "args": [
+        "@democratize-quality/mcp-server",
+        "--api-only"
+      ],
+      "env": {
+        "NODE_ENV": "production",
+        "OUTPUT_DIR": "./reports"
+      }
+    },
+    "playwright-mcp": {
       "command": "npx",
       "args": [
         "@playwright/mcp@latest",
-        "--user-data-dir", "gemini-playwright",
+        "--user-data-dir",
+        "gemini-playwright",
         "--save-trace",
-        "--output-dir", "test-artifacts"
+        "--output-dir",
+        "test-artifacts"
+      ]
+    },
+    "artillery-mcp": {
+      "command": "npx",
+      "args": [
+        "@democratize-quality/artillery-performance-mcp-server",
+        "/Users/rajuppadhyay/yaml-tests"
       ]
     }
-  },
-  "autoAccept": true
-}
+  }
 ```
 
 ::: warning Security Note
